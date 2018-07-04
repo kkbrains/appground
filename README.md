@@ -1,7 +1,7 @@
 # appground
 
 - Clone the project
-
+- Download the PSD from [here](https://s3-ap-southeast-2.amazonaws.com/pooltrackr-apk/psd.zip)
 - Create a new branch `companyname` or `developername`
 
 ```
