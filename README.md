@@ -11,5 +11,6 @@
 4. Not be responsive, make sure it works on 1350px width latops
 ```
 -  **DO NOT MERGE YOUR CODE TO MASTER**  Leave your branch once you are done.
+- Duration one day, expected to be pushed on **5 July 2018 9:00 AM Sydney time**
 
 Thank you happy coding
