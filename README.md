@@ -7,6 +7,7 @@
 ```
 1. Create a webpack project including https://materializecss.com/ MaterializeCSS
 2. Include LESS and Angular JS plugin inside webpack
-3. Design the screen as per the attached PSD using MaterlializeCSS, LESS using Angular 1 framework
+3. Design the screens as per the attached PSD using MaterlializeCSS, LESS using Angular 1 framework
+4. Not be responsive, make sure it works on 1350px width latops
 ```
 - Do a merge request to master once its done.
