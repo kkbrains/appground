@@ -2,7 +2,7 @@
 
 - Clone the project
 - Download the PSD from [here](https://s3-ap-southeast-2.amazonaws.com/pooltrackr-apk/psd.zip)
-- Create a new branch `companyname` or `developername`
+- Create a new branch under `companyname` or `developername`
 
 ```
 1. Create a webpack project including https://materializecss.com/ MaterializeCSS
