@@ -10,4 +10,6 @@
 3. Design the screens as per the attached PSD using MaterlializeCSS, LESS using Angular 1 framework
 4. Not be responsive, make sure it works on 1350px width latops
 ```
-- Do a merge request to master once its done.
+-  *DO NOT MERGE YOUR CODE TO MASTER*  Do a merge request to master once you are done.
+
+Thank you happy coding
