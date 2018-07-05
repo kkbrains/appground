@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Admin Panel</title>
+        <!-- Favicons-->
+        <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+        <!-- Favicons-->
+        <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+        <!-- For iPhone -->
+        <meta name="msapplication-TileColor" content="#00bcd4">
+        <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+        <!-- For Windows Phone -->
+        
+        <!-- CORE CSS-->
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+        
+    </head>
+    <body>
+        <!-- Start Page Loading -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>        
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        <!-- End Page Loading -->
+
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- START HEADER -->
+        <header id="header" class="page-topbar">
+            <!-- start header nav-->
+            <div class="navbar-fixed">
+                <nav class="navbar-color">
+                    <div class="nav-wrapper">
+                        <ul class="left">                      
+                            <li>
+								<h1 class="logo-wrapper">
+									<a href="javascript:void(0);" class="brand-logo darken-1">
+										Water <span class="logo-text">Cloud</span>
+									</a>
+								</h1>
+							</li>
+                        </ul>
+                        <div class="header-search-wrapper hide-on-med-and-down">
+                            <i class="mdi-action-search"></i>
+                            <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Find pool or contact"/>
+                        </div>
+                        <!-- notifications-dropdown -->
+                    </div>
+                </nav>
+            </div>
+            <!-- end header nav-->
+        </header>
+        <!-- END HEADER -->
+
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+        <!-- START MAIN -->
+        <div id="main">
+            <!-- START WRAPPER -->
+            <div class="wrapper">
+                <!-- START LEFT SIDEBAR NAV-->
+                <aside id="left-sidebar-nav">
+                    <ul id="slide-out" class="side-nav fixed leftside-navigation">
+                        <li class="bold active">
+                            <a href="javascript:void(0);" class="waves-effect waves-cyan">Customize</a>
+                        </li>
+                        <li class="bold">
+                            <a href="javascript:void(0);" class="waves-effect waves-cyan">Email Messages</a>
+                        </li>
+                        <li class="bold">
+                            <a href="javascript:void(0);" class="waves-effect waves-cyan">Setup SPIN</a>
+                        </li>
+                        <li class="bold">
+                            <a href="javascript:void(0);" class="waves-effect waves-cyan">Chlorine demand</a>
+                        </li>
+                        <li class="bold">
+                            <a href="javascript:void(0);" class="waves-effect waves-cyan">Plan and Payment</a>
+                        </li>
+                    </ul>
+                </aside>
+                <!-- END LEFT SIDEBAR NAV-->
+
+                <!-- //////////////////////////////////////////////////////////////////////////// -->
+                <!-- START CONTENT -->
+                <section id="content">
+                    <!--start container-->
+                    <div class="container">
+                        <div class="divider"></div>
+                        <!--Basic Tabs-->
+                        <div id="basic-tabs" class="section">
+                            <div class="row">
+                                <div class="col s12">
+                                    <ul class="tabs tab-demo z-depth-1">
+                                        <li class="tab col s3"><a href="#tab1">Store information</a></li>
+                                        <li class="tab col s3"><a href="#tab2">Preferences</a></li>
+                                        <li class="tab col s3"><a class="active" href="#tab3">Analysis references</a></li>
+                                        <li class="tab col s3"><a href="#tab4">User &amp; passwords</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col s12">
+                                    <div id="tab1" class="col s12">
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                        <ol>
+                                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                            <li>Aliquam tincidunt mauris eu risus.</li>
+                                            <li>Vestibulum auctor dapibus neque.</li>
+                                        </ol>
+                                    </div>
+                                    
+                                    <div id="tab2" class="col s12">
+                                        <dl>
+                                            <dt>Definition list</dt>
+                                            <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
+                                            <dt>Lorem ipsum dolor sit amet</dt>
+                                            <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
+                                        </dl>
+                                    </div>
+                                    <div id="tab3" class="col s12">
+                                        <div class="row">
+                                            <div class="col s12 m6 l6">
+                                                <div class="row">
+                                                    <div></div> 
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col mt20">
+                                                        <strong>DEFAULT ANALYSIS PRINTOUT STYLE</strong>
+                                                    </div>
+                                                    <div class="col s12">
+                                                        <div class="row">
+                                                            <form class="col s12">
+                                                                <div class="row">
+                                                                    <div class="col s12">
+                                                                        <select>
+                                                                            <option value="">Choose your option</option>
+                                                                            <option value="1" selected>Detailed</option>
+                                                                            <option value="2">Option 2</option>
+                                                                            <option value="3">Option 3</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col s12">
+                                                                        <p>
+                                                                            <input type="radio" id="test1" />
+                                                                            <label for="test1">Prompt for printer</label>
+                                                                        </p>
+                                                                        <p>
+                                                                            <input type="radio" id="test2" />
+                                                                            <label for="test2">No print preview</label>
+                                                                        </p>
+                                                                        <p>
+                                                                            <input type="radio" id="test3" />
+                                                                            <label for="test3">Do not show images on printout</label>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col s12 mt20">
+                                                        <ul id="task-card" class="collection with-header">
+                                                            <li class="collection-header cyan">
+                                                                <h5 class="task-card-title">NEXT TEST DATE REMINDER</h5>
+                                                            </li>
+                                                            <li class="collection-item dismissable">
+                                                                <div class="row">
+                                                                    <div class="col s6">
+                                                                        <label>Pool</label>
+                                                                        <input type="number" placeholder="2" class="width75" />Weeks
+                                                                    </div>
+ 
+                                                                    <div class="col s6">
+                                                                        <label>SPA</label>
+                                                                        <input type="number" placeholder="4" class="width75" />Weeks
+                                                                    </div>
+                                                                    
+                                                                    <div class="col s12">
+                                                                        Entering 0 will turn off reminder
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col s12 mt20">
+                                                        <ul id="task-card" class="collection with-header">
+                                                            <li class="collection-header cyan">
+                                                                <h5 class="task-card-title">SALT SETTINGS</h5>
+                                                            </li>
+                                                            <li class="collection-item dismissable">
+                                                                <div class="row">
+                                                                    <div class="col s12">
+                                                                        <label>RECOMMENDED SALT IN:</label>
+                                                                        <select>
+                                                                            <option value="">Choose your option</option>
+                                                                            <option value="1" selected>Bag(s)</option>
+                                                                            <option value="2">Packets(s)</option>
+                                                                            <option value="3">Boxes 3</option>
+                                                                        </select>
+                                                                    </div>
+    
+                                                                    <div class="col s12">
+                                                                        <label>DEFAULT SALT BAG SIZE</label>
+                                                                        <input type="text" placeholder="20" class="width75" /> KG
+                                                                    </div>
+                                                                    
+                                                                    <div class="col s12">
+                                                                        <p>
+                                                                            <input type="checkbox" id="testbag6" />
+                                                                            <label for="testbag6">Manually enter bag size during anaysis</label>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col">
+                                                        <strong>SELECT VOLUMN TO SWITCH FROM BURN OUT EX TO SWIM CLEAR</strong>
+                                                        <input type="number" placeholder="40" class="width75" />KL
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col s12 m6 l6">
+                                                <div class="row">
+                                                    <div class="input-field col s12">
+                                                        <p>
+                                                            <input type="checkbox" id="test4" />
+                                                            <label for="test4">Turn Off Saturation index print files</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test5" />
+                                                            <label for="test5">Do not print certificate</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test6" />
+                                                            <label for="test6">Do not print regular maintenance</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test7" />
+                                                            <label for="test7">Display Balance CH to in Customer Profile</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test8" />
+                                                            <label for="test8">Use old method of CYA/TA adjustment</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test9" />
+                                                            <label for="test9">Display Last Test</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test10" />
+                                                            <label for="test10">Do not display CYA drain warning</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test11" />
+                                                            <label for="test11">Use Off The Wall for Waterline Buildup</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test12" />
+                                                            <label for="test12">Replace Stingy Sticks with Swim Tabs</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test13" />
+                                                            <label for="test13">Replace Lite with Smart Shock</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test14" />
+                                                            <label for="test14">Replace Back Up III and MSA III with MSA Extreme</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test15" />
+                                                            <label for="test15">Turn on Demand Drops</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test16" />
+                                                            <label for="test16">Do not treat trace metals</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test17" />
+                                                            <label for="test17">Use Filter Renew</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test18" />
+                                                            <label for="test18">Replace PowerFloc with Power Floc Maxi</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test19" />
+                                                            <label for="test19">Show Acc-Demand 30<sup>TM</sup> Shutdown Prompt</label>
+                                                        </p>
+                                                        <p>
+                                                            <input type="checkbox" id="test20" />
+                                                            <label for="test20">Tester's Initials Required</label>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="input-field col s2">
+                                                <a href="javascript:void(0);" class="btn waves-effect waves-light light-blue darken-4 col s5">SAVE</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="tab4" class="col s12">
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit amet, consectedddtuer adipiscing elit.</li>
+                                            <li>Aliquam tincidunt mauris eu risus.</li>
+                                            <li>Vestibulum auctor dapibus neque.</li>
+                                        </ul>   
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </section>
+                <!-- END CONTENT -->
+            </div>
+            <!-- END WRAPPER -->
+        </div>
+        <!-- END MAIN -->
+        
+        <!-- START FOOTER -->
+        <footer class="page-footer">
+            <div class="footer-copyright">
+                <div class="container">
+                    <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="https://www.tekkiwebsolutions.com/">Tekki Web Solutions</a></span>
+                </div>
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+
+        <!-- jQuery Library -->
+        <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>    
+        <!--materialize js-->
+        <script type="text/javascript" src="js/materialize.js"></script>
+        <!--prism-->
+        <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+        <script type="text/javascript" src="js/plugins.js"></script>
+    </body>
+</html>
