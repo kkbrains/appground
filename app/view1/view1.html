@@ -1,0 +1,329 @@
+<nav class="nav-extended theme-bg row margin-bottom-0">
+    <div class="nav-wrapper col s12">
+      <a href="#" class="brand-logo">Water
+        <span class="text-blue">Cloud</span>
+      </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a class="waves-effect waves-light btn bg-blue">VIEW ALL TESTS
+            <i class="material-icons right">invert_colors</i>
+          </a>
+        </li>
+        <li>
+          <div class="input-field theme-color search-input">
+            <i class="theme-color material-icons prefix">search</i>
+            <input id="last_name" type="text" placeholder="Find pool or contact" class="text-top">
+          </div>
+        </li>
+        <li>
+          <a href="#">
+            <i class="material-icons right">more_vert</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="#test1">Test 1</a></li>
+        <li class="tab"><a class="active" href="#test2">Test 2</a></li>
+        <li class="tab"><a href="#test3">Disabled Tab</a></li>
+        <li class="tab"><a href="#test4">Test 4</a></li>
+      </ul>
+    </div> -->
+  </nav>
+  <div class="row bg-gray" style=" ">
+    <div class="col s2 bg-gray">
+      <ul id="" class="sidbar-links">
+        <li>
+          <a class="waves-effect active" href="#!">Customize</a>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li>
+          <a class="waves-effect" href="#!">Email Messages</a>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+
+        <li>
+          <a class="waves-effect" href="#!">Setup SPIN</a>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+
+        <li>
+          <a class="waves-effect" href="#!">Chlorine demand</a>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+
+        <li>
+          <a class="waves-effect" href="#!">Plan and payment</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col s9 bg-lightgray">
+
+      <div class="row page-content">
+        <div class="">
+          <ul class="tabs">
+            <li class="tab col s3">
+              <a href="#test1">Store Information</a>
+            </li>
+            <li class="tab col s3">
+              <a href="#test2">Preferences</a>
+            </li>
+            <li class="tab col s3">
+              <a class="active" href="#test3">Analysis preferences</a>
+            </li>
+            <li class="tab col s3">
+              <a href="#test4">Users & passwords</a>
+            </li>
+          </ul>
+        </div>
+        <!-- <div id="test1" class="col s12">Test 1</div>
+      <div id="test2" class="col s12">Test 2</div>
+      <div id="test3" class="col s12">Test 3</div>
+      <div id="test4" class="col s12">Test 4</div> -->
+        <div class="row">
+          <div class="col s12 padding-top-3">
+            <div class="col s4">
+              <div>
+                <label  class="label-fonts">DEFAULT ANALYSIS PRINTOUT STYLE </label>
+                <select class="browser-default">
+                  <!-- <option value="" disabled selected>Choose your option</option> -->
+                  <option value="1" selected>Detailed</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                </select>
+              </div>
+              <div>
+                <p>
+                  <label>
+                    <input name="group1" type="radio" checked />
+                    <span>Prompt for printer</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group1" type="radio" />
+                    <span>No Print Preview</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Do not show images on printout</span>
+                  </label>
+                </p>
+
+              </div>
+              <div class="row">
+                <div class="col s12">
+                  <div class="card ">
+                    <div class="card-action center bg-gray cards-title">
+                      NEXT TEST DATE REMINDER
+                    </div>
+                    <div class="card-content">
+                      <div class="row">
+                        <div class="col s6 ">
+                          <div class="row">
+                            <div class="col s7 input-field">
+                             <input type="number" value="2" id="pool">
+                              <label for="pool">POOL</label> 
+                            </div>
+                            <div class="col s5 line-height-4">
+                              Weeks
+                            </div>
+                          </div>
+
+                        </div>
+                        <div class="col s6">
+                          <div class="row">
+                            <div class="col s7 input-field ">
+                              <input type="number" value="4" id="spa">
+                              <label for="spa">SPA</label>
+                            </div>
+                            <div class="col s5 line-height-4">
+                              Weeks
+                            </div>
+                          </div>
+
+                        </div>
+                        <span>Entering 0 will turn off reminders </span>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="card ">
+                    <div class="card-action center bg-gray cards-title">
+                      SALT SETTING
+                    </div>
+                    <div class="card-content">
+                      <div class="padding-bottom-2">
+                        <label class="label-fonts">RECOMMENDED SALT IN:</label>
+                        <select class="browser-default">
+                          <!-- <option value="" disabled selected>Choose your option</option> -->
+                          <option value="1" selected>Bag(s)</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                      </div>
+                      <div class="padding-bottom-2">
+                        <div class="col s6">
+                          <label class="label-fonts">DEFAULT SALT BAG SIZE:</label>
+                          <input type="text" value="20">
+                        </div>
+                        <div class="line-height-4 "> KG</div>
+                      </div>
+                      <div>
+                        <label>
+                          <input type="checkbox" class="filled-in" checked="checked" />
+                          <span>Manually enter bag size during analysis</span>
+                        </label>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+                  <div>
+                    <div>SELECT VOLUME TO SWITCH FROM BURN OUT EX TO SWIM CLEAR</div>
+                    <div class="col s3">
+                    <select class="browser-default">
+                      <!-- <option value="" disabled selected>Choose your option</option> -->
+                      <option value="1" selected>40</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                  </div>
+                    <div class="line-height-4">
+                      KL
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col s4 offset-s1 checkboxes">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Turn off Saturation inbox print files</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Do not print files certificate</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Do not print Regular Maintenance</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Display Balance CH to in Customer Profile </span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Use old method of CYA/TA adjustment</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Display Last Test </span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Do not display CYA drain warning</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Use Off the Wall for Waterline Buildup </span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Replace Stingy Sticks with Swim Tabs</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Replace Lite with smart shock</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Replace Back Up III and MSA III with MSA Extreme</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Turn on Demand Drops </span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Do not treat trace metals</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Use Filter Renew</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Replace PowerFloc with Power Floc Maxi</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Show Acc-Demand 30TM Shutdown Prompt</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span>Tester's Initials Required</span>
+                </label>
+              </p>
+            </div>
+          </div>
+        </div>
+<div class="center">
+    <a class="waves-effect waves-light btn theme-bg"><i class="material-icons left">save</i>Save</a>
+</div>
+      </div>
+    </div>
+  </div>
